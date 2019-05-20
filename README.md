@@ -19,3 +19,5 @@ Resulting exe file will be generated in `dist/` and is obviously dependent on th
 If you want something portable, make sure to build it with 32 Bits Python distribution.
 
 You can override `python` in commands above to use alternative Python interpreter.
+
+If your antivirus detect the binary as Virus file, use ![upx](https://github.com/upx/upx "UPX") to repack the binary.
